@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15709CF61F16A6BB00BABD05 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */; };
+		15709CFB1F16A6E800BABD05 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */; };
+		15709D051F16A70D00BABD05 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 15709CFE1F16A70D00BABD05 /* OFL.txt */; };
+		15709D061F16A70D00BABD05 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CFF1F16A70D00BABD05 /* Oswald-Bold.ttf */; };
+		15709D071F16A70D00BABD05 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D001F16A70D00BABD05 /* Oswald-ExtraLight.ttf */; };
+		15709D081F16A70D00BABD05 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D011F16A70D00BABD05 /* Oswald-Light.ttf */; };
+		15709D091F16A70D00BABD05 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D021F16A70D00BABD05 /* Oswald-Medium.ttf */; };
+		15709D0A1F16A70D00BABD05 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D031F16A70D00BABD05 /* Oswald-Regular.ttf */; };
+		15709D0B1F16A70D00BABD05 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D041F16A70D00BABD05 /* Oswald-SemiBold.ttf */; };
 		15CB7A0F1F152A2B00B8B82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */; };
 		15CB7A111F152A2B00B8B82E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB7A101F152A2B00B8B82E /* SignInVC.swift */; };
 		15CB7A141F152A2B00B8B82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A121F152A2B00B8B82E /* Main.storyboard */; };
@@ -17,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
+		15709CFE1F16A70D00BABD05 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		15709CFF1F16A70D00BABD05 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		15709D001F16A70D00BABD05 /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		15709D011F16A70D00BABD05 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		15709D021F16A70D00BABD05 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
+		15709D031F16A70D00BABD05 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		15709D041F16A70D00BABD05 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
 		15CB7A0B1F152A2B00B8B82E /* SociaLooLoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SociaLooLoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15CB7A101F152A2B00B8B82E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -42,6 +60,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15709CF31F16A6BB00BABD05 /* Lobster */ = {
+			isa = PBXGroup;
+			children = (
+				15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */,
+			);
+			path = Lobster;
+			sourceTree = "<group>";
+		};
+		15709CF81F16A6E800BABD05 /* Cookie */ = {
+			isa = PBXGroup;
+			children = (
+				15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */,
+			);
+			name = Cookie;
+			path = Lobster/Cookie;
+			sourceTree = "<group>";
+		};
+		15709CFD1F16A70D00BABD05 /* Oswald */ = {
+			isa = PBXGroup;
+			children = (
+				15709CFE1F16A70D00BABD05 /* OFL.txt */,
+				15709CFF1F16A70D00BABD05 /* Oswald-Bold.ttf */,
+				15709D001F16A70D00BABD05 /* Oswald-ExtraLight.ttf */,
+				15709D011F16A70D00BABD05 /* Oswald-Light.ttf */,
+				15709D021F16A70D00BABD05 /* Oswald-Medium.ttf */,
+				15709D031F16A70D00BABD05 /* Oswald-Regular.ttf */,
+				15709D041F16A70D00BABD05 /* Oswald-SemiBold.ttf */,
+			);
+			path = Oswald;
+			sourceTree = "<group>";
+		};
+		15709D0C1F16A71A00BABD05 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				15CB7A151F152A2B00B8B82E /* Assets.xcassets */,
+				15709CF31F16A6BB00BABD05 /* Lobster */,
+				15709CF81F16A6E800BABD05 /* Cookie */,
+				15709CFD1F16A70D00BABD05 /* Oswald */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		15CB7A021F152A2B00B8B82E = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +123,12 @@
 		15CB7A0D1F152A2B00B8B82E /* SociaLooLoo */ = {
 			isa = PBXGroup;
 			children = (
+				15709D0C1F16A71A00BABD05 /* Utilities */,
 				15F200F31F15465B00FE2D64 /* Model */,
 				15F200F41F15466200FE2D64 /* View */,
 				15F200F51F15466800FE2D64 /* Controller */,
 				15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */,
 				15CB7A121F152A2B00B8B82E /* Main.storyboard */,
-				15CB7A151F152A2B00B8B82E /* Assets.xcassets */,
 				15CB7A171F152A2B00B8B82E /* LaunchScreen.storyboard */,
 				15CB7A1A1F152A2B00B8B82E /* Info.plist */,
 				15CB7A201F15440500B8B82E /* GoogleService-Info.plist */,
@@ -178,10 +238,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15709D051F16A70D00BABD05 /* OFL.txt in Resources */,
+				15709D081F16A70D00BABD05 /* Oswald-Light.ttf in Resources */,
+				15709CF61F16A6BB00BABD05 /* Lobster-Regular.ttf in Resources */,
 				15CB7A191F152A2B00B8B82E /* LaunchScreen.storyboard in Resources */,
+				15709D061F16A70D00BABD05 /* Oswald-Bold.ttf in Resources */,
 				15CB7A211F15440500B8B82E /* GoogleService-Info.plist in Resources */,
 				15CB7A161F152A2B00B8B82E /* Assets.xcassets in Resources */,
+				15709D0A1F16A70D00BABD05 /* Oswald-Regular.ttf in Resources */,
+				15709D091F16A70D00BABD05 /* Oswald-Medium.ttf in Resources */,
 				15CB7A141F152A2B00B8B82E /* Main.storyboard in Resources */,
+				15709CFB1F16A6E800BABD05 /* Cookie-Regular.ttf in Resources */,
+				15709D0B1F16A70D00BABD05 /* Oswald-SemiBold.ttf in Resources */,
+				15709D071F16A70D00BABD05 /* Oswald-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
