@@ -36,6 +36,7 @@
 		152605D01F17CFAC00E2750B /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		152605D21F17D1A600E2750B /* LoginFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFields.swift; sourceTree = "<group>"; };
 		152605D41F17D34C00E2750B /* SignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInBtn.swift; sourceTree = "<group>"; };
+		153C356A1F17FFAB00395F37 /* SociaLooLoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SociaLooLoo.entitlements; sourceTree = "<group>"; };
 		15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		15709CFE1F16A70D00BABD05 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -134,6 +135,7 @@
 		15CB7A0D1F152A2B00B8B82E /* SociaLooLoo */ = {
 			isa = PBXGroup;
 			children = (
+				153C356A1F17FFAB00395F37 /* SociaLooLoo.entitlements */,
 				15709D0C1F16A71A00BABD05 /* Utilities */,
 				15F200F31F15465B00FE2D64 /* Model */,
 				15F200F41F15466200FE2D64 /* View */,
@@ -227,6 +229,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 94NP446562;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -456,6 +463,7 @@
 			baseConfigurationReference = E5A5D2DA3EA838FFDC583C23 /* Pods-SociaLooLoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SociaLooLoo/SociaLooLoo.entitlements;
 				DEVELOPMENT_TEAM = 94NP446562;
 				INFOPLIST_FILE = SociaLooLoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -470,6 +478,7 @@
 			baseConfigurationReference = 91C33777FAEF2A1DC40E6929 /* Pods-SociaLooLoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SociaLooLoo/SociaLooLoo.entitlements;
 				DEVELOPMENT_TEAM = 94NP446562;
 				INFOPLIST_FILE = SociaLooLoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
