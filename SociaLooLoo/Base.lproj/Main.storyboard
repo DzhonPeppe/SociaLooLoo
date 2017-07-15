@@ -99,7 +99,7 @@
                                         <rect key="frame" x="0.0" y="42" width="283" height="27"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9L-cU-ZZY" customClass="SignInBtn" customModule="SociaLooLoo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="84" width="283" height="44"/>
@@ -108,6 +108,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HV4-DO-ghG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -131,6 +134,10 @@
                             <constraint firstItem="u6j-Rq-Luc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xwY-bf-Rx3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginField" destination="ucg-nQ-d9V" id="Joc-rX-kdv"/>
+                        <outlet property="passwordField" destination="dg2-Rd-Nrc" id="6GY-j5-52D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
