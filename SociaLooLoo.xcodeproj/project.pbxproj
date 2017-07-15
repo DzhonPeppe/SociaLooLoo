@@ -22,6 +22,7 @@
 		15709D091F16A70D00BABD05 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D021F16A70D00BABD05 /* Oswald-Medium.ttf */; };
 		15709D0A1F16A70D00BABD05 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D031F16A70D00BABD05 /* Oswald-Regular.ttf */; };
 		15709D0B1F16A70D00BABD05 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709D041F16A70D00BABD05 /* Oswald-SemiBold.ttf */; };
+		15A29AFB1F1A7EFE00E7719D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A29AFA1F1A7EFE00E7719D /* PostCell.swift */; };
 		15CB7A0F1F152A2B00B8B82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */; };
 		15CB7A111F152A2B00B8B82E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB7A101F152A2B00B8B82E /* SignInVC.swift */; };
 		15CB7A141F152A2B00B8B82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A121F152A2B00B8B82E /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		15709D021F16A70D00BABD05 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
 		15709D031F16A70D00BABD05 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
 		15709D041F16A70D00BABD05 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		15A29AFA1F1A7EFE00E7719D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		15CB7A0B1F152A2B00B8B82E /* SociaLooLoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SociaLooLoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15CB7A101F152A2B00B8B82E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				152605D21F17D1A600E2750B /* LoginFields.swift */,
 				152605D41F17D34C00E2750B /* SignInBtn.swift */,
 				156F1F041F19F3A800BC0D16 /* CircleView.swift */,
+				15A29AFA1F1A7EFE00E7719D /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				15CB7A0F1F152A2B00B8B82E /* AppDelegate.swift in Sources */,
 				152605D31F17D1A600E2750B /* LoginFields.swift in Sources */,
 				152605CF1F17CD1800E2750B /* Constants.swift in Sources */,
+				15A29AFB1F1A7EFE00E7719D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
