@@ -12,6 +12,7 @@
 		152605D11F17CFAC00E2750B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152605D01F17CFAC00E2750B /* RoundBtn.swift */; };
 		152605D31F17D1A600E2750B /* LoginFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152605D21F17D1A600E2750B /* LoginFields.swift */; };
 		152605D51F17D34C00E2750B /* SignInBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152605D41F17D34C00E2750B /* SignInBtn.swift */; };
+		156F1F051F19F3A800BC0D16 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156F1F041F19F3A800BC0D16 /* CircleView.swift */; };
 		15709CF61F16A6BB00BABD05 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */; };
 		15709CFB1F16A6E800BABD05 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */; };
 		15709D051F16A70D00BABD05 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 15709CFE1F16A70D00BABD05 /* OFL.txt */; };
@@ -38,6 +39,7 @@
 		152605D21F17D1A600E2750B /* LoginFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFields.swift; sourceTree = "<group>"; };
 		152605D41F17D34C00E2750B /* SignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInBtn.swift; sourceTree = "<group>"; };
 		153C356A1F17FFAB00395F37 /* SociaLooLoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SociaLooLoo.entitlements; sourceTree = "<group>"; };
+		156F1F041F19F3A800BC0D16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		15709CFE1F16A70D00BABD05 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		15709D0C1F16A71A00BABD05 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				15CB7A1A1F152A2B00B8B82E /* Info.plist */,
+				15CB7A201F15440500B8B82E /* GoogleService-Info.plist */,
 				15CB7A151F152A2B00B8B82E /* Assets.xcassets */,
 				15709CF31F16A6BB00BABD05 /* Lobster */,
 				15709CF81F16A6E800BABD05 /* Cookie */,
@@ -142,9 +146,6 @@
 				15F200F31F15465B00FE2D64 /* Model */,
 				15F200F41F15466200FE2D64 /* View */,
 				15F200F51F15466800FE2D64 /* Controller */,
-				15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */,
-				15CB7A1A1F152A2B00B8B82E /* Info.plist */,
-				15CB7A201F15440500B8B82E /* GoogleService-Info.plist */,
 			);
 			path = SociaLooLoo;
 			sourceTree = "<group>";
@@ -165,6 +166,7 @@
 				152605D01F17CFAC00E2750B /* RoundBtn.swift */,
 				152605D21F17D1A600E2750B /* LoginFields.swift */,
 				152605D41F17D34C00E2750B /* SignInBtn.swift */,
+				156F1F041F19F3A800BC0D16 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,6 +174,7 @@
 		15F200F51F15466800FE2D64 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				15CB7A0E1F152A2B00B8B82E /* AppDelegate.swift */,
 				15CB7A101F152A2B00B8B82E /* SignInVC.swift */,
 				15ED329D1F19D19800ACEFBC /* FeedVC.swift */,
 			);
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156F1F051F19F3A800BC0D16 /* CircleView.swift in Sources */,
 				152605D51F17D34C00E2750B /* SignInBtn.swift in Sources */,
 				15CB7A111F152A2B00B8B82E /* SignInVC.swift in Sources */,
 				152605D11F17CFAC00E2750B /* RoundBtn.swift in Sources */,
