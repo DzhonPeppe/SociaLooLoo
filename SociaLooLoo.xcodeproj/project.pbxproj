@@ -27,6 +27,7 @@
 		15CB7A161F152A2B00B8B82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A151F152A2B00B8B82E /* Assets.xcassets */; };
 		15CB7A191F152A2B00B8B82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A171F152A2B00B8B82E /* LaunchScreen.storyboard */; };
 		15CB7A211F15440500B8B82E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A201F15440500B8B82E /* GoogleService-Info.plist */; };
+		15ED329E1F19D19800ACEFBC /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ED329D1F19D19800ACEFBC /* FeedVC.swift */; };
 		D5F6DFB5E6B84E14DC7E8E23 /* Pods_SociaLooLoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD46ADE712181E74755329 /* Pods_SociaLooLoo.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		15CB7A181F152A2B00B8B82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15CB7A1A1F152A2B00B8B82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15CB7A201F15440500B8B82E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15ED329D1F19D19800ACEFBC /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		91C33777FAEF2A1DC40E6929 /* Pods-SociaLooLoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociaLooLoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SociaLooLoo/Pods-SociaLooLoo.release.xcconfig"; sourceTree = "<group>"; };
 		C7FD46ADE712181E74755329 /* Pods_SociaLooLoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociaLooLoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5D2DA3EA838FFDC583C23 /* Pods-SociaLooLoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociaLooLoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SociaLooLoo/Pods-SociaLooLoo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				15CB7A101F152A2B00B8B82E /* SignInVC.swift */,
+				15ED329D1F19D19800ACEFBC /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				15CB7A111F152A2B00B8B82E /* SignInVC.swift in Sources */,
 				152605D11F17CFAC00E2750B /* RoundBtn.swift in Sources */,
 				152605CD1F17CC7700E2750B /* HeaderView.swift in Sources */,
+				15ED329E1F19D19800ACEFBC /* FeedVC.swift in Sources */,
 				15CB7A0F1F152A2B00B8B82E /* AppDelegate.swift in Sources */,
 				152605D31F17D1A600E2750B /* LoginFields.swift in Sources */,
 				152605CF1F17CD1800E2750B /* Constants.swift in Sources */,
