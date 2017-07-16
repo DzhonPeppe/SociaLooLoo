@@ -66,7 +66,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.73725490196078436" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Если вы новичок в Лю Лю, регистрация будет автоматически создана при входе в систему." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjs-Ub-aL7">
-                                <rect key="frame" x="24" y="605.5" width="343" height="53.5"/>
+                                <rect key="frame" x="24" y="617" width="343" height="42"/>
                                 <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -93,22 +93,22 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="u6j-Rq-Luc">
-                                <rect key="frame" x="46" y="380" width="283" height="128"/>
+                                <rect key="frame" x="46" y="380" width="283" height="114"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="e-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ucg-nQ-d9V" customClass="LoginFields" customModule="SociaLooLoo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="283" height="27"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="21"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-Rd-Nrc" customClass="LoginFields" customModule="SociaLooLoo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="42" width="283" height="27"/>
+                                        <rect key="frame" x="0.0" y="36" width="283" height="21"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9L-cU-ZZY" customClass="SignInBtn" customModule="SociaLooLoo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="84" width="283" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="283" height="42"/>
                                         <color key="backgroundColor" red="0.38431372549019605" green="0.0" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="25"/>
                                         <state key="normal" title="Войти">
@@ -173,7 +173,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Новости" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzl-rH-u4F">
-                                        <rect key="frame" x="116.5" y="13" width="143.5" height="50"/>
+                                        <rect key="frame" x="108" y="15" width="160" height="47"/>
                                         <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -244,10 +244,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tf3-z4-iiH" customClass="HeaderView" customModule="SociaLooLoo" customModuleProvider="target">
-                                                    <rect key="frame" x="16" y="8" width="343" height="328.5"/>
+                                                    <rect key="frame" x="16" y="8" width="343" height="329"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WeT-nx-y6P">
-                                                            <rect key="frame" x="8" y="8" width="327" height="288.5"/>
+                                                            <rect key="frame" x="8" y="8" width="327" height="288"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EyK-Ug-EMe">
                                                                     <rect key="frame" x="0.0" y="0.0" width="327" height="65"/>
@@ -275,10 +275,10 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="tim-Fp-AxX">
-                                                                    <rect key="frame" x="0.0" y="73" width="327" height="132.5"/>
+                                                                    <rect key="frame" x="0.0" y="73" width="327" height="132"/>
                                                                 </imageView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Моя реакция, когда моя жена пьет слишком много!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gR7-2K-Ic6">
-                                                                    <rect key="frame" x="0.0" y="213.5" width="327" height="75"/>
+                                                                    <rect key="frame" x="0.0" y="213" width="327" height="75"/>
                                                                     <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="Kqd-7N-44j"/>
@@ -290,16 +290,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wlZ-XR-uIq">
-                                                            <rect key="frame" x="253" y="304.5" width="82" height="16"/>
+                                                            <rect key="frame" x="240" y="304" width="95" height="17"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лайки:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCO-HG-BWW">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="44.5" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="45" height="17"/>
                                                                     <fontDescription key="fontDescription" name="Cookie-Regular" family="Cookie" pointSize="14"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-zR-7Sl">
-                                                                    <rect key="frame" x="49.5" y="0.0" width="32.5" height="16"/>
+                                                                    <rect key="frame" x="50" y="0.0" width="45" height="17"/>
                                                                     <fontDescription key="fontDescription" name="Cookie-Regular" family="Cookie" pointSize="20"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -328,7 +328,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="caption" destination="gR7-2K-Ic6" id="Jr1-SL-atB"/>
-                                            <outlet property="likesLvl" destination="DgR-zR-7Sl" id="8yA-az-DmV"/>
+                                            <outlet property="likesLbl" destination="DgR-zR-7Sl" id="oFt-Du-PdQ"/>
                                             <outlet property="postImg" destination="tim-Fp-AxX" id="OKf-sy-38G"/>
                                             <outlet property="profileImg" destination="CDy-Bk-ltx" id="vmn-50-guo"/>
                                             <outlet property="userNameLbl" destination="NnR-jc-I6w" id="eHD-NQ-x4j"/>
