@@ -30,6 +30,11 @@
 		15CB7A161F152A2B00B8B82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A151F152A2B00B8B82E /* Assets.xcassets */; };
 		15CB7A191F152A2B00B8B82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A171F152A2B00B8B82E /* LaunchScreen.storyboard */; };
 		15CB7A211F15440500B8B82E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15CB7A201F15440500B8B82E /* GoogleService-Info.plist */; };
+		15D40B221F1BB3FF005B9421 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D40B211F1BB3FF005B9421 /* Post.swift */; };
+		15D40B241F1BB88F005B9421 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 15D40B231F1BB88F005B9421 /* Roboto */; };
+		15D40B261F1BB8BA005B9421 /* Open_Sans_Condensed in Resources */ = {isa = PBXBuildFile; fileRef = 15D40B251F1BB8BA005B9421 /* Open_Sans_Condensed */; };
+		15D40B281F1BB8C9005B9421 /* Open_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 15D40B271F1BB8C9005B9421 /* Open_Sans */; };
+		15D40B2A1F1BB92B005B9421 /* Roboto_Slab (1) in Resources */ = {isa = PBXBuildFile; fileRef = 15D40B291F1BB92B005B9421 /* Roboto_Slab (1) */; };
 		15ED329E1F19D19800ACEFBC /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ED329D1F19D19800ACEFBC /* FeedVC.swift */; };
 		D5F6DFB5E6B84E14DC7E8E23 /* Pods_SociaLooLoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD46ADE712181E74755329 /* Pods_SociaLooLoo.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +66,11 @@
 		15CB7A181F152A2B00B8B82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15CB7A1A1F152A2B00B8B82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15CB7A201F15440500B8B82E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15D40B211F1BB3FF005B9421 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		15D40B231F1BB88F005B9421 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		15D40B251F1BB8BA005B9421 /* Open_Sans_Condensed */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Open_Sans_Condensed; sourceTree = "<group>"; };
+		15D40B271F1BB8C9005B9421 /* Open_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Open_Sans; sourceTree = "<group>"; };
+		15D40B291F1BB92B005B9421 /* Roboto_Slab (1) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Roboto_Slab (1)"; sourceTree = "<group>"; };
 		15ED329D1F19D19800ACEFBC /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		91C33777FAEF2A1DC40E6929 /* Pods-SociaLooLoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociaLooLoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SociaLooLoo/Pods-SociaLooLoo.release.xcconfig"; sourceTree = "<group>"; };
 		C7FD46ADE712181E74755329 /* Pods_SociaLooLoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociaLooLoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +134,10 @@
 				15CB7A1A1F152A2B00B8B82E /* Info.plist */,
 				15CB7A201F15440500B8B82E /* GoogleService-Info.plist */,
 				15CB7A151F152A2B00B8B82E /* Assets.xcassets */,
+				15D40B291F1BB92B005B9421 /* Roboto_Slab (1) */,
+				15D40B271F1BB8C9005B9421 /* Open_Sans */,
+				15D40B251F1BB8BA005B9421 /* Open_Sans_Condensed */,
+				15D40B231F1BB88F005B9421 /* Roboto */,
 				15709CF31F16A6BB00BABD05 /* Lobster */,
 				15709CF81F16A6E800BABD05 /* Cookie */,
 				15709CFD1F16A70D00BABD05 /* Oswald */,
@@ -166,6 +180,7 @@
 		15F200F31F15465B00FE2D64 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				15D40B211F1BB3FF005B9421 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -280,19 +295,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D40B261F1BB8BA005B9421 /* Open_Sans_Condensed in Resources */,
 				15709D051F16A70D00BABD05 /* OFL.txt in Resources */,
 				15709D081F16A70D00BABD05 /* Oswald-Light.ttf in Resources */,
 				15709CF61F16A6BB00BABD05 /* Lobster-Regular.ttf in Resources */,
 				15CB7A191F152A2B00B8B82E /* LaunchScreen.storyboard in Resources */,
 				15709D061F16A70D00BABD05 /* Oswald-Bold.ttf in Resources */,
 				15CB7A211F15440500B8B82E /* GoogleService-Info.plist in Resources */,
+				15D40B2A1F1BB92B005B9421 /* Roboto_Slab (1) in Resources */,
 				15CB7A161F152A2B00B8B82E /* Assets.xcassets in Resources */,
 				15709D0A1F16A70D00BABD05 /* Oswald-Regular.ttf in Resources */,
 				15709D091F16A70D00BABD05 /* Oswald-Medium.ttf in Resources */,
+				15D40B241F1BB88F005B9421 /* Roboto in Resources */,
 				15CB7A141F152A2B00B8B82E /* Main.storyboard in Resources */,
 				15709CFB1F16A6E800BABD05 /* Cookie-Regular.ttf in Resources */,
 				15709D0B1F16A70D00BABD05 /* Oswald-SemiBold.ttf in Resources */,
 				15709D071F16A70D00BABD05 /* Oswald-ExtraLight.ttf in Resources */,
+				15D40B281F1BB8C9005B9421 /* Open_Sans in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +373,7 @@
 				156F1F051F19F3A800BC0D16 /* CircleView.swift in Sources */,
 				152605D51F17D34C00E2750B /* SignInBtn.swift in Sources */,
 				15CB7A111F152A2B00B8B82E /* SignInVC.swift in Sources */,
+				15D40B221F1BB3FF005B9421 /* Post.swift in Sources */,
 				152605D11F17CFAC00E2750B /* RoundBtn.swift in Sources */,
 				152605CD1F17CC7700E2750B /* HeaderView.swift in Sources */,
 				152B634E1F1B578A008FDA1F /* DataService.swift in Sources */,
