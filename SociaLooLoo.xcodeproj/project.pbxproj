@@ -12,6 +12,7 @@
 		152605D11F17CFAC00E2750B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152605D01F17CFAC00E2750B /* RoundBtn.swift */; };
 		152605D31F17D1A600E2750B /* LoginFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152605D21F17D1A600E2750B /* LoginFields.swift */; };
 		152605D51F17D34C00E2750B /* SignInBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152605D41F17D34C00E2750B /* SignInBtn.swift */; };
+		152B634E1F1B578A008FDA1F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B634D1F1B578A008FDA1F /* DataService.swift */; };
 		156F1F051F19F3A800BC0D16 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156F1F041F19F3A800BC0D16 /* CircleView.swift */; };
 		15709CF61F16A6BB00BABD05 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */; };
 		15709CFB1F16A6E800BABD05 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15709CF91F16A6E800BABD05 /* Cookie-Regular.ttf */; };
@@ -39,6 +40,7 @@
 		152605D01F17CFAC00E2750B /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		152605D21F17D1A600E2750B /* LoginFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFields.swift; sourceTree = "<group>"; };
 		152605D41F17D34C00E2750B /* SignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInBtn.swift; sourceTree = "<group>"; };
+		152B634D1F1B578A008FDA1F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		153C356A1F17FFAB00395F37 /* SociaLooLoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SociaLooLoo.entitlements; sourceTree = "<group>"; };
 		156F1F041F19F3A800BC0D16 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		15709CF41F16A6BB00BABD05 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152B634C1F1B5753008FDA1F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				152B634D1F1B578A008FDA1F /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		15709CF31F16A6BB00BABD05 /* Lobster */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				153C356A1F17FFAB00395F37 /* SociaLooLoo.entitlements */,
+				152B634C1F1B5753008FDA1F /* Services */,
 				15709D0C1F16A71A00BABD05 /* Utilities */,
 				15F200F31F15465B00FE2D64 /* Model */,
 				15F200F41F15466200FE2D64 /* View */,
@@ -345,6 +356,7 @@
 				15CB7A111F152A2B00B8B82E /* SignInVC.swift in Sources */,
 				152605D11F17CFAC00E2750B /* RoundBtn.swift in Sources */,
 				152605CD1F17CC7700E2750B /* HeaderView.swift in Sources */,
+				152B634E1F1B578A008FDA1F /* DataService.swift in Sources */,
 				15ED329E1F19D19800ACEFBC /* FeedVC.swift in Sources */,
 				15CB7A0F1F152A2B00B8B82E /* AppDelegate.swift in Sources */,
 				152605D31F17D1A600E2750B /* LoginFields.swift in Sources */,

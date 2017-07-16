@@ -159,7 +159,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqA-LI-LKm" customClass="HeaderView" customModule="SociaLooLoo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="piR-0F-cvu">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="piR-0F-cvu">
                                         <rect key="frame" x="8" y="15" width="45" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="iAL-yZ-hAn"/>
@@ -167,13 +167,14 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzl-rH-u4F">
-                                        <rect key="frame" x="162" y="19" width="51.5" height="37.5"/>
+                                        <rect key="frame" x="162" y="19.5" width="51.5" height="37.5"/>
                                         <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="fzl-rH-u4F" firstAttribute="centerX" secondItem="UqA-LI-LKm" secondAttribute="centerX" id="3fy-Mk-qsv"/>
                                     <constraint firstItem="piR-0F-cvu" firstAttribute="top" secondItem="UqA-LI-LKm" secondAttribute="top" constant="15" id="K5v-FX-3pC"/>
@@ -181,6 +182,9 @@
                                     <constraint firstAttribute="height" constant="65" id="tHE-WT-7Dx"/>
                                     <constraint firstItem="piR-0F-cvu" firstAttribute="leading" secondItem="UqA-LI-LKm" secondAttribute="leading" constant="8" id="xxj-Wv-5hx"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UHI-8c-e5m" appends="YES" id="Kf5-ni-qIU"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jry-XG-tV4" customClass="HeaderView" customModule="SociaLooLoo" customModuleProvider="target">
                                 <rect key="frame" x="16" y="81" width="343" height="65"/>
@@ -347,6 +351,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X7O-yK-KWX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UHI-8c-e5m">
+                    <connections>
+                        <action selector="signoutPressed:" destination="l6m-Dh-qDY" id="qfp-7C-kfr"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="848.79999999999995" y="135.38230884557723"/>
         </scene>
