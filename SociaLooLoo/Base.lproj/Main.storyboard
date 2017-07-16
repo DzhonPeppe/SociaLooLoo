@@ -167,7 +167,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzl-rH-u4F">
-                                        <rect key="frame" x="162" y="19.5" width="51.5" height="37.5"/>
+                                        <rect key="frame" x="154" y="21" width="67.5" height="35"/>
                                         <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -241,7 +241,7 @@
                                                     <rect key="frame" x="16" y="8" width="343" height="328.5"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WeT-nx-y6P">
-                                                            <rect key="frame" x="8" y="8" width="327" height="282"/>
+                                                            <rect key="frame" x="8" y="8" width="327" height="281"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EyK-Ug-EMe">
                                                                     <rect key="frame" x="0.0" y="0.0" width="327" height="65"/>
@@ -269,10 +269,10 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="tim-Fp-AxX">
-                                                                    <rect key="frame" x="0.0" y="73" width="327" height="126"/>
+                                                                    <rect key="frame" x="0.0" y="73" width="327" height="125"/>
                                                                 </imageView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Моя реакция, когда моя жена пьет слишком много!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gR7-2K-Ic6">
-                                                                    <rect key="frame" x="0.0" y="207" width="327" height="75"/>
+                                                                    <rect key="frame" x="0.0" y="206" width="327" height="75"/>
                                                                     <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="Kqd-7N-44j"/>
@@ -284,16 +284,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wlZ-XR-uIq">
-                                                            <rect key="frame" x="263" y="298" width="72" height="22.5"/>
+                                                            <rect key="frame" x="233" y="297" width="102" height="23.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCO-HG-BWW">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="34.5" height="22.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="52.5" height="23.5"/>
                                                                     <fontDescription key="fontDescription" name="Cookie-Regular" family="Cookie" pointSize="20"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-zR-7Sl">
-                                                                    <rect key="frame" x="39.5" y="0.0" width="32.5" height="22.5"/>
+                                                                    <rect key="frame" x="57.5" y="0.0" width="44.5" height="23.5"/>
                                                                     <fontDescription key="fontDescription" name="Cookie-Regular" family="Cookie" pointSize="20"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
